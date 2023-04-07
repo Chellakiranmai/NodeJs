@@ -1,0 +1,24 @@
+{
+  "name": "node-js",
+  "version": "1.0.0",
+  "description": "a node basics",
+  "main": "firstprogram.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chellakiranmai/NodeJs.git"
+  },
+  "author": "kiranmai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chellakiranmai/NodeJs/issues"
+  },
+  "homepage": "https://github.com/Chellakiranmai/NodeJs#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "simple-logs": "^0.2.11"
+  }
+}

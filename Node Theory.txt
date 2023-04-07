@@ -1,0 +1,46 @@
+Node Js mostly used for connecting API & its so fast
+It is a runtime environment that uses Javascript 
+We cant connect database with JS but with Node Js we cantnode
+=>Fundamentals:
+using export & import deosnt work in node.
+in node we need to use module.exports ={
+    variable to be exported
+}
+in file i which it has to be import define a const variable const a = requir("./filename")
+
+
+filter function is used find any value in an array
+ syntax:
+variablename.filter((item)=>{
+    return item===required value
+})
+
+
+
+=>Core Modules: 2 types global modules & Non Global modules
+fr,Buffer,HTTP etc are core modules
+Global modules are not needed to import
+to check directory name consol.log(-dir)
+to create a ne file using fs
+const fs = require('fs');
+fs.writeFileSync("code.txt","text required"); and run
+will create a text file named code
+
+
+
+
+=>To create a basic server
+const http = require('http');
+
+// to create a basic server
+
+http.createServer((req,res)=>{
+    res.write("hi");
+    res.end();
+
+}).listen(3000);
+
+
+
+=> Package.json
+it contains project details like packages and commands used in project
